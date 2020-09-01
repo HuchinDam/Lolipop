@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+    <title>Lolipop</title>
+</head>
+
+<body>
+    <header id="Cabeza">
+        <h1 class="Titulo"> <a href="index.html">Lilopop</a> </h1>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+
+    <div class="MenuDerecha" id="Menu">
+        <div class="MenuDerechaBox">
+            <p class="Menu"> Menu</p>
+            <ul>
+                <li> <a href="nosotros.html">Nosotros</a> </li>
+                <br>
+                <li>Dulces</li>
+                <br>
+                <li>Contenido</li>
+                <br>
+                <li>Unirse</li>
+            </ul>
+            <br>
+            <p class="Phone">+52 01 800 5645</p>
+            <p class="Menu_red"> Redes Sociales</p>
+            <p class=Redes>
+                <i class='bx bxl-facebook' style='color:#f68741'></i>
+                <i class='bx bxl-twitter' style='color:#f68741'></i>
+                <i class='bx bxl-instagram' style='color:#f68741'></i>
+                <i class='bx bxl-whatsapp' style='color:#f68741'></i>
+            </p>
+        </div>
+    </div>
+
+    <div class="Contenido">
+        <div class="PostBox">
+            <div class="Post">
+                <div class="PostTitle">
+                    Hoy los dulces estan deliciosos :3
+                </div>
+
+                <div class="UserPost">
+                    <p>22/08/2020</p>
+                </div>
+                <img src="Wonka.jpg" alt="Chololate" class="Foto">
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto facilis et, dolorum
+                    nostrum
+                    ex
+                    dolores, eligendi eaque incidunt repellendus ad doloremque dicta reprehenderit vero odio aperiam
+                    doloribus nobis
+                    non!</p>
+            </div>
+        </div>
+        <br><br>
+
+
+    </div>
+
+
+    <br>
+    <div class="End">
+        <h3 class="Titulo">Lolipop</h3>
+        <p>
+            Redes Sociales:
+            <i class='bx bxl-facebook' style='color:#ffffff'></i>
+            <i class='bx bxl-twitter' style='color:#ffffff'></i>
+            <i class='bx bxl-instagram' style='color:#ffffff'></i>
+            <i class='bx bxl-whatsapp' style='color:#ffffff'></i>
+        </p>
+    </div>
+
+    <script>
+        function myFunction(x,y) {
+            x.classList.toggle("change");
+            var y = document.getElementById("Menu")
+            y.classList.toggle("visible");
+            var z = document.getElementById("Cabeza")
+            z.classList.toggle("abierto");
+            
+        }
+    </script>
+
+</body>
+
+</html>
