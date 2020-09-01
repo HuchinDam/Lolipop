@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
-    <title>Lolipop Nosotrtos</title>
+    <title>Lolipop</title>
 </head>
 
 <body>
@@ -22,6 +22,8 @@
             <div class="bar3"></div>
         </div>
     </header>
+
+
     <div class="MenuDerecha" id="Menu">
         <div class="MenuDerechaBox">
             <p class="Menu"> Menu</p>
@@ -47,51 +49,30 @@
     </div>
 
     <div class="Contenido">
-
         <div class="PostBox">
-
             <div class="Post">
                 <div class="PostTitle">
-                    Lolipop Agencia de Dulces
+                    Forma parte de la agencia de dulces mas popular de CDMX
                 </div>
+                
 
 
-                <p>Una empresa de dulces para todos los niños que buscan un gran momento de felicidad, desde apoyar a
-                    dulces nuevos hasta ofrecer un excelente servicio </p>
-            </div>
-        </div>
+                <p>Llene el formulario para poder conocer tus productos y poder contactarte si eres candidato(a) para pertenecer a la agencia</p>
+                <br>
+                <form >
+                    <ul>
+                        <li>Nombre completo: &emsp;<input type="text" name="Nombre" id="Name"></li>
+                        <br>
+                        <li>Numero de Telefono: <input type="text" name="Telefono" id="Phone"></li>
+                        <br>
+                        <li>Correo Electronico: &emsp;<input type="email" name="Correo" id="Mail"></li>
+                        <br>
+                        <li>Foto de referencia: &emsp; <input type="file"></li>
+                        <br>
+                        <input type="submit" value="Enviar Datos">
+                    </ul>
 
-        <div class="PostBox">
-
-            <div class="Post">
-                <div class="PostTitle">
-                    Misión
-                </div>
-
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto facilis et, dolorum
-                    nostrum
-                    ex
-                    dolores, eligendi eaque incidunt repellendus ad doloremque dicta reprehenderit vero odio aperiam
-                    doloribus nobis
-                    non!</p>
-            </div>
-        </div>
-
-        <div class="PostBox">
-
-            <div class="Post">
-                <div class="PostTitle">
-                    Visión
-                </div>
-
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto facilis et, dolorum
-                    nostrum
-                    ex
-                    dolores, eligendi eaque incidunt repellendus ad doloremque dicta reprehenderit vero odio aperiam
-                    doloribus nobis
-                    non!</p>
+                </form>
             </div>
         </div>
         <br><br>
@@ -113,13 +94,13 @@
     </div>
 
     <script>
-        function myFunction(x, y) {
+        function myFunction(x,y) {
             x.classList.toggle("change");
             var y = document.getElementById("Menu")
             y.classList.toggle("visible");
             var z = document.getElementById("Cabeza")
             z.classList.toggle("abierto");
-
+            
         }
     </script>
 
